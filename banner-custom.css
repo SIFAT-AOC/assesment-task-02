@@ -95,7 +95,7 @@ header {
   background-color: #592579;
   color: #fff;
   transition: all 0.4s ease;
-  padding: 10px 20px;
+  padding: 15px 30px;
   font-size: 18px;
   font-weight: 600;
   position: absolute;
@@ -105,8 +105,9 @@ header {
   border: none;
   bottom: 10%;
   transform: translate(20%, -10%);
-  right: 20%;
+  right: 0%;
 }
+
 .bnner-btn:hover {
   background-color: #fff;
   color: #592579;
@@ -123,6 +124,11 @@ header {
     bottom: 10%;
     left: 8%;
     transform: translate(-8%, 10%);
+  }
+  .bnner-btn {
+    bottom: 10%;
+    transform: translate(20%, -10%);
+    right: 20%;
   }
 }
 @media (max-width: 1200px) {
@@ -156,6 +162,7 @@ header {
     font-size: 25px;
     line-height: 30px;
     text-align: center;
+    margin-top: 20px;
   }
   .social-icons {
     bottom: 8%;
@@ -179,8 +186,8 @@ header {
     text-align: center;
   }
   .bnner-btn {
-    bottom: 30%;
-    transform: translate(50%, -30%);
+    bottom: 25%;
+    transform: translate(50%, -25%);
     right: 50%;
   }
   header {
