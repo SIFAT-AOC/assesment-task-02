@@ -26,7 +26,7 @@ header {
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 0 100px;
+  padding: 0 0px;
   margin: 0 auto;
   position: relative;
 }
@@ -67,8 +67,8 @@ header {
   gap: 20px;
   position: absolute;
   bottom: 10%;
-  left: 8%;
-  transform: translate(-8%, 10%);
+  left: 0%;
+  transform: translate(-0%, 10%);
 }
 .social-icons svg {
   height: 40px;
@@ -118,6 +118,11 @@ header {
   .col-container {
     width: 35%;
     padding-top: 5%;
+  }
+  .social-icons {
+    bottom: 10%;
+    left: 8%;
+    transform: translate(-8%, 10%);
   }
 }
 @media (max-width: 1200px) {
